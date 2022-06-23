@@ -8,7 +8,7 @@ const Profile = (props) => {
         <div>
 
             <h1>Fullname: {Fullname}</h1>
-            <button onClick={handleName(Fullname)}>Click Me</button>
+            <button onClick={()=> handleName(Fullname)}>Click Me</button>
             <h1>Bio: {Bio}</h1>
             <h1>Profession: {Profession}</h1>
             <div>{props.children}</div>
